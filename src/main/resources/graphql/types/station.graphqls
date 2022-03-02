@@ -1,0 +1,7 @@
+type Station {
+	id: ID!
+	name: String!
+	address: Address!
+	plattformCount: Int!
+	wheelchairAccessible: Boolean!
+}
