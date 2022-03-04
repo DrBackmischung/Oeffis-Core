@@ -1,4 +1,7 @@
 type Query {
 	version: String
 	station(id: ID!): Station
+	stations: [Station]
+	address(id: ID!): Address
+	addresses: [Address]
 }
