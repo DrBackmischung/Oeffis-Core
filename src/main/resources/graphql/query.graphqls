@@ -4,4 +4,20 @@ type Query {
 	stations: [Station]
 	address(id: ID!): Address
 	addresses: [Address]
+	connection(id: ID!): Connection
+	connections: [Connection]
+	line(id: ID!): Line
+	lines: [Line]
+	pattern(id: ID!): Pattern
+	patterns: [Pattern]
+	plan(id: ID!): Plan
+	plans: [Plan]
+	price(id: ID!): Price
+	prices: [Price]
+	seat(id: ID!): Seats
+	seats: [Seats]
+	service(id: ID!): Service
+	services: [Service]
+	vehicle(id: ID!): Vehicle
+	vehicles: [Vehicle]
 }
