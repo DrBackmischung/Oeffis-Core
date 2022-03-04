@@ -1,0 +1,6 @@
+type Price {
+	id: ID!
+	from: Station!
+	to: Station!
+	price: Float!
+}
