@@ -1,0 +1,5 @@
+type Pattern {
+	id: ID!
+	stations: [ID]!
+	intervals: [Int]!
+}

@@ -1,0 +1,6 @@
+type Service {
+	id: ID!
+	name: String!
+	line: Line!
+	pattern: Pattern!
+}
