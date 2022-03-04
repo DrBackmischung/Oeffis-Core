@@ -1,0 +1,6 @@
+type Seat {
+	id: ID!
+	row: Int!
+	nr: Int!
+	real: Boolean!
+}

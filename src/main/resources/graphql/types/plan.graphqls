@@ -1,0 +1,4 @@
+type Plan {
+	id: ID!
+	seats: [Seat]!
+}
