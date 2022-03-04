@@ -1,0 +1,7 @@
+type Connection {
+	id: ID!
+	time: String!
+	vehicle: Vehicle!
+	service: Service!
+	seats: [Seat]!
+}
