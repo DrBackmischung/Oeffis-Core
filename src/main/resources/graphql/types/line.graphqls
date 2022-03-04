@@ -1,0 +1,5 @@
+type Line {
+	id: ID!
+	name: String!
+	stations: [Station]
+}
